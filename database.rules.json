@@ -1,9 +1,30 @@
 {
   "rules": {
     ".read": "true",
-    ".write": "true",
     "movies": {
-        ".indexOn": "id"
+      ".indexOn": "id",
+      ".write": "false"
+    },
+    "users": {
+      ".write": "true"
+    },
+    "MovieXRating" {
+      ".write": "false"
+    },
+    "MovieXDirector" {
+      ".write": "false"
+    },
+    "MovieXActor" {
+      ".write": "false"
+    },
+    "MovieXGenre" {
+      ".write": "false"
+    },
+    "MovieXBudget" {
+      ".write": "false"
+    },
+    "MovieXRevenue" {
+      ".write": "false"
     }
   }
 }
